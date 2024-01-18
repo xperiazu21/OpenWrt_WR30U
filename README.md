@@ -23,6 +23,9 @@ Source: [PatriciaLee3/wr30u_ssh](https://github.com/PatriciaLee3/wr30u_ssh)
 
 2. 電腦中Wi-Fi網卡上右鍵開啟共用如圖
 
+![image](https://github.com/xperiazu21/OpenWrt_WR30U/assets/53937642/f9ca75bc-2d34-4657-96fb-d844bae8d6f1)
+
+
 3. 用網路線將路由器 Port1 和電腦連接，如果共用設定成功，路由器上網路指示燈會亮
 
 4. 執行 `server_emulator.py` 並等待找到路由器連線
@@ -42,6 +45,8 @@ Source: [Github](https://github.com/openwrt/openwrt/pull/12770#issue-1732758292)
 ### 原廠韌體分區內容
 
 下圖為 `cat /proc/mtd` 輸出:
+
+
 
 其中只需要備份:
 
